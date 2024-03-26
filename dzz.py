@@ -4,6 +4,6 @@ class Vehicle:
         self.model = model
         self.year = year
     def print(self):
-        print("Виробник -", self.make)
-        print("Модель -", self.model)
-        print("Рік -", self.year)
+        veh_inf = f"Vehicle:\nВиробник - {self.make}\nМодель - {self.model}"
+        print(veh_inf)
+        return veh_inf
